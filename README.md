@@ -2,7 +2,7 @@
 Scripts and functions for PSC classification
 
 In this repository the code developed during the thesis research has been added.
-The code can be find in the folder "code"
+The code can be find in the folder "code". All the code is compatible with Python3.
 
 The most important files are:
 
@@ -15,3 +15,7 @@ The most important files are:
 * "autoencoder_classification.py" for performing feature reduction using the autoencoder and classification of MIPAS dataset after training on CSDB
 * "random_forest_classification.py" for performing feature reduction using RF and PCA and classification of MIPAS dataset after training on CSDB
 * "kpca_classification.py" for performing feature reduction using KPCA and classification of MIPAS dataset after training on CSDB
+* "plot_psc.py" for plotting PSCs in specific days for MIPAS
+* "plot_mat.py" for plotting time series and bin counts for MIPAS
+* "plot_pie.py" for plotting pie charts for MIPAS
+* "plot_bar_mipas.py" for plotting coincidence statistics of class predictions among the different classification schemes

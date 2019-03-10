@@ -5,7 +5,7 @@ In this repository the code developed during the thesis research has been added.
 The code can be find in the folder "code". All the code is compatible with Python3.
 Installation of specific packages is needed.
 
-The most important files are:
+**The most important files are:**
 
 * "load_mipas.py" for extracting data from NETCDF4 files of MIPAS
 * "filter_mipas.py" for filtering the HDF files (on altitude and cloud index)
@@ -20,3 +20,5 @@ The most important files are:
 * "plot_mat.py" for plotting time series and bin counts for MIPAS
 * "plot_pie.py" for plotting pie charts for MIPAS
 * "plot_bar_mipas.py" for plotting coincidence statistics of class predictions among the different classification schemes
+
+**In the "plots" folder plots  not included in the thesis document can be found**

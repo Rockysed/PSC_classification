@@ -12,3 +12,6 @@ The most important files are:
 * "csdb_visualization_v3_gaussnoise.py" for filtering the HDF files (on altitude and cloud index)
   and calculating the BTDs of CSDB (case with Gaussian noise added to the spectra)
 * "load_csdb.py"
+* "autoencoder_classification.py" for performing feature reduction using the autoencoder and classification of MIPAS dataset after training on CSDB
+* "random_forest_classification.py" for performing feature reduction using RF and PCA and classification of MIPAS dataset after training on CSDB
+* "kpca_classification.py" for performing feature reduction using KPCA and classification of MIPAS dataset after training on CSDB
